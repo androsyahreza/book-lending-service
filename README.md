@@ -12,6 +12,9 @@ RESTful API that lets members borrow and return books from a library, this app b
 
 ## General info
 The Book Lending Service is an API that lets members borrow and return books from a library. It provides endpoints to show book information, member information, and do borrowing-returning transactions. This app built with ExpressJS and Postgres.
+### Entity Relationship Diagram
+![erd](./src/assets/image/erd.png)
+
 ### Features
 * Members can borrow books with conditions:
   - [x]  Members may not borrow more than 2 books
