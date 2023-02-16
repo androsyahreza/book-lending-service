@@ -21,6 +21,7 @@ const ViewMember = async () => {
         where: {
           return_date : null
         },
+        required:false
       }
     ],
     group: ["Members.code", "Members.name"]
